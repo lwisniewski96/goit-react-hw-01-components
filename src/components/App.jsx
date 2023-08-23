@@ -4,6 +4,9 @@ import { Profile } from './Profile/Profile';
 import data from './Statistics/data.json';
 import { Statistics } from './Statistics/Statistics';
 
+import friends from './FriendList/friends.json'
+import {FriendList} from './FriendList/FriendList'
+
 const rootStyles = {
   display: 'flex',
   flexDirection: 'column',
@@ -27,6 +30,7 @@ export const App = () => {
         likes={user.stats.likes}
       />
       <Statistics title="Upload stats" stats={data} />
+      <FriendList friends={friends} />;
     </div>
   );
 };
