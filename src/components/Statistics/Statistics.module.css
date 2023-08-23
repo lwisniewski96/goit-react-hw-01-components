@@ -1,21 +1,18 @@
 .statistics {
     display: flex;
     flex-direction: column;
-    background-color: #8aea7d;
+    background-color: #e5cac1;
     justify-content: center;
     align-items: center;
   
     border: 2px solid #000;
     border-radius: 30px;
     padding: 20px;
-    box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #201a1a;
     gap: 35px;
     transition: scale 300ms;
   }
   
-  .statistics:hover {
-    scale: 1.05;
-  }
   
   .title {
     font-size: 32px;
@@ -40,11 +37,7 @@
     transition: scale 300ms, transform 300ms;
   }
   
-  .item:hover {
-    scale: 1.2;
-    transform: rotate(-5deg);
-  }
-  
+ 
   .label {
     font-size: 22px;
     color: #fff;

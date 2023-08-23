@@ -1,21 +1,17 @@
 .profile {
   display: flex;
   flex-direction: column;
-  background-color: #eabb7d;
+  background-color: #6209e6ce;
   justify-content: center;
   align-items: center;
-  border: 2px solid #000;
+  border: 2px solid rgb(3, 42, 73);
   border-radius: 30px;
   margin-top: 30px;
-  box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #0c0cc5;
   gap: 35px;
   transition: scale 300ms;
   width: 350px;
   overflow: hidden;
-}
-
-.profile:hover {
-  scale: 1.05;
 }
 
 .description {
@@ -29,14 +25,10 @@
   height: 250px;
   width: 250px;
   border-radius: 50%;
-  background-color: #b79262;
-  border: 3px solid #6b4d26;
+  background-color: #fffeff;
+  border: 3px solid #301c5c;
   margin: 0;
-  transition: scale 300ms;
-}
-
-.avatar:hover {
-  scale: 1.05;
+  /* transition: scale 300ms; */
 }
 
 .name {
@@ -44,7 +36,7 @@
 }
 .tag {
   font-size: 28px;
-  color: #605d5a;
+  color: #060301;
 }
 /* .location {
     composes: tag;
@@ -56,8 +48,8 @@
   align-items: center;
   justify-content: space-around;
   list-style: none;
-  background-color: #554735;
-  border-top: 1px solid #6b4d26;
+  background-color: #efedec;
+  border-top: 1px solid #3e5fcd;
 
   width: 100%;
 }
